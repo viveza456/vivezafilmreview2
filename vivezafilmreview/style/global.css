@@ -1,0 +1,38 @@
+body {
+	background-color: #222222;
+}
+p {
+	color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+    line-height: 1.4;
+}
+h1 {
+	color: #db7f26;
+	font-family: 'Bangers', cursive;
+	font-size: 3.9em;
+    font-weight: normal;
+    line-height: 1.4;
+}
+div {
+	color: #db7f26;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+    line-height: 1.4;
+}
+blockquote {
+	color: #db7f26;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6em;
+    line-height: 1.4;
+}
+img {
+	width: 100%;
+}
+a {
+	color: #db7f26;
+	font-family: 'Bangers', cursive;
+	font-size: 1em;
+    font-weight: normal;
+    line-height: 1.4;
+}
