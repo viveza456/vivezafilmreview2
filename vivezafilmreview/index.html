@@ -10,6 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
 	<link href="style/layout.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -38,7 +41,7 @@
 			<p>I can thank Director Michael Gracey along with the lyricists that brought us <cite>La La Land</cite> for the brilliant new film that has brought me endless karaoke days and nights.</p>
 			<p><cite>The Greatest Showman</cite>.</p>
 			<p>Within the first two seconds, I. Was. Hooked.</p>
-			<p>The <strong>CREATIVITY</strong>.</p><img alt="hugh jackman as P.T. Barnum" src="images/ringmasterjackman.jpg">
+			<p>The <strong>CREATIVITY</strong>.</p><div class="slider"><div><img alt="hugh jackman as P.T. Barnum" src="images/ringmasterjackman.jpg"></div><div> <img src="images/magic.jpg"></div></div>
 			<p>The <strong>MUSIC</strong>.</p><img alt="zendaya and zac efron performing rewrite the stars" src="images/zendayaandzack.jpg">
 			<p>The <strong>STAR-STUDDED CAST</strong>.</p><span class="image"><img alt="the greatest showman circus cast" src="images/showmancast.jpg"></span>
 			<p>Each carefully selected thing- from costumes, to the sets, to the songs- made this movie one that everyone can enjoy. You will walk out of the theater with the sense that you too can achieve anything you put your mind to (especially, if that idea is to create a circus).</p>
@@ -65,5 +68,10 @@
 			2018
 		</footer>
 	</div>
+    <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
 </body>
 </html>
